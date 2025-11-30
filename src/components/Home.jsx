@@ -1,5 +1,4 @@
 import React from 'react';
-import pfp2 from '../assets/imgs/profile-pic.jpg';
 const Home = () => {
   return (
     <>
