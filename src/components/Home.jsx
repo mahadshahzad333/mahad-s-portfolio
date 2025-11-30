@@ -33,7 +33,7 @@ const Home = () => {
               <img 
                 // Changed fixed w-48 to responsive sizing
                 className="w-64 h-64 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full object-cover shadow-2xl ring-4 ring-blue-500/50 transition-transform duration-300 hover:scale-105" 
-                src={pfp2} 
+                src="/me.jpg" 
                 alt="Mahad Shahzad Profile" 
               />
             </div>
