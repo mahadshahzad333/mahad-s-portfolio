@@ -1,5 +1,5 @@
 import React from 'react';
-import pfp2 from '../assets/imgs/pfp2.JPG';
+import pfp2 from '../assets/imgs/pfp2.jpg';
 
 const Home = () => {
   return (
