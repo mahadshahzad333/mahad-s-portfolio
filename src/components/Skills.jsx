@@ -79,20 +79,8 @@ const Skills = () => {
                 <p className='text-sm text-gray-600'>Intermediate</p>
               </div>
             </div>
-            <div className="flex items-center gap-2">
-              <img className='invert w-5' src={tick} alt="" />
-              <div>
-                <p className='font-medium'>TypeScript</p>
-                <p className='text-sm text-gray-600'>Intermediate</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-2">
-              <img className='invert w-5' src={tick} alt="" />
-              <div>
-                <p className='font-medium'>Material UI</p>
-                <p className='text-sm text-gray-600'>Intermediate</p>
-              </div>
-            </div>
+            
+            
           </div>
         </div>
 
@@ -122,13 +110,7 @@ const Skills = () => {
                 <p className='text-sm text-gray-600'>Intermediate</p>
               </div>
             </div>
-            <div className="flex items-center gap-2">
-              <img className='invert w-5' src={tick} alt="" />
-              <div>
-                <p className='font-medium'>Spring Boot 3</p>
-                <p className='text-sm text-gray-600'>Intermediate</p>
-              </div>
-            </div>
+            
             <div className="flex items-center gap-2">
               <img className='invert w-5' src={tick} alt="" />
               <div>
@@ -165,34 +147,10 @@ const Skills = () => {
                 <p className='text-sm text-gray-600'>Advanced</p>
               </div>
             </div>
-            <div className="flex items-center gap-2">
-              <img className='invert w-5' src={tick} alt="" />
-              <div>
-                <p className='font-medium'>Azure</p>
-                <p className='text-sm text-gray-600'>Basic</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-2">
-              <img className='invert w-5' src={tick} alt="" />
-              <div>
-                <p className='font-medium'>Nginx</p>
-                <p className='text-sm text-gray-600'>Basic</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-2">
-              <img className='invert w-5' src={tick} alt="" />
-              <div>
-                <p className='font-medium'>Linux</p>
-                <p className='text-sm text-gray-600'>Intermediate</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-2">
-              <img className='invert w-5' src={tick} alt="" />
-              <div>
-                <p className='font-medium'>CI/CD</p>
-                <p className='text-sm text-gray-600'>Basic</p>
-              </div>
-            </div>
+            
+            
+            
+            
           </div>
         </div>
 
@@ -201,13 +159,7 @@ const Skills = () => {
           <p className='text-lg font-bold pb-[8px] text-blue-400'>Soft Skills & Methodologies</p>
           <div className="grid grid-cols-2 gap-x-2 gap-y-4 py-[6px]">
             {/* ... Your exact items ... */}
-            <div className="flex items-start gap-2">
-              <img className='invert w-5 mt-1' src={tick} alt="" />
-              <div>
-                <p className='font-medium text-sm md:text-base leading-tight'>Agile/Scrum</p>
-                <p className='text-xs text-gray-600'>Intermediate</p>
-              </div>
-            </div>
+            
             <div className="flex items-start gap-2">
               <img className='invert w-5 mt-1' src={tick} alt="" />
               <div>
@@ -236,13 +188,7 @@ const Skills = () => {
                 <p className='text-xs text-gray-600'>Intermediate</p>
               </div>
             </div>
-            <div className="flex items-start gap-2">
-              <img className='invert w-5 mt-1' src={tick} alt="" />
-              <div>
-                <p className='font-medium text-sm md:text-base leading-tight'>Mentoring & Sharing</p>
-                <p className='text-xs text-gray-600'>Intermediate</p>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
