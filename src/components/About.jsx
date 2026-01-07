@@ -61,7 +61,7 @@ const About = () => {
             </div>
             <img className='invert w-[60px] absolute right-4 bottom-16 opacity-90 group-hover:scale-110 transition-transform' src={comp} alt="" />
             <div className="mt-10">
-              <p className='text-3xl font-bold text-white'>20+</p>
+              <p className='text-3xl font-bold text-white'>7+</p>
               <p className='text-sm text-slate-300'>Projects delivered</p>
             </div>
           </div>
@@ -77,7 +77,7 @@ const About = () => {
             </div>
             <img className='w-[60px] invert absolute right-4 bottom-16 opacity-90 group-hover:scale-110 transition-transform' src={experience} alt="" />
             <div className="mt-10">
-              <p className='text-3xl font-bold text-white'>2+ Years</p>
+              <p className='text-3xl font-bold text-white'>6+ Months</p>
               <p className='text-sm text-slate-300'>Professional growth</p>
             </div>
           </div>
