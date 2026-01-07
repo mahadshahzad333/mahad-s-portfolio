@@ -104,9 +104,9 @@ const About = () => {
       </div>
 
       <div className={`button flex justify-center mt-8 mb-6 ${animation}`} style={{transitionDelay: isAnimating ? '500ms' : '0ms'}}>
-        <button className="relative z-10 cursor-pointer text-white font-semibold px-8 py-3 rounded-full bg-blue-500/50 border border-indigo-300/30 shadow-[0_0_12px_#3b82f6] transition-all duration-300 hover:scale-105">
+        {/* <button className="relative z-10 cursor-pointer text-white font-semibold px-8 py-3 rounded-full bg-blue-500/50 border border-indigo-300/30 shadow-[0_0_12px_#3b82f6] transition-all duration-300 hover:scale-105">
             Download CV
-        </button>
+        </button> */}
       </div>
     </div>
   )
