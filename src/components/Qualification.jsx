@@ -64,7 +64,7 @@ const Qualification = () => {
             Education
           </button>
 
-          {/* <button onClick={() => setactiveTab('experience')}
+          <button onClick={() => setactiveTab('experience')}
             className={`flex items-center gap-2 px-6 py-2.5 rounded-full border transition-all duration-300 font-medium relative group ${
               activeTab === 'experience' 
               ? 'bg-cyan-600/20 border-cyan-500 text-cyan-300 shadow-[0_0_20px_rgba(6,182,212,0.3)]' 
@@ -73,7 +73,7 @@ const Qualification = () => {
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
             Experience
-          </button> */}
+          </button>
         </div>
       </div>
 
@@ -128,19 +128,19 @@ const Qualification = () => {
         {/* ================= EXPERIENCE TAB ================= */}
         {activeTab === 'experience' && (
           <>
-            {/* Experience Card 1 */}
-            {/* <div className={`${glass} ${animation} h-auto min-h-[400px] md:h-[60vh] p-8 flex flex-col items-center justify-between`} style={{transitionDelay: isAnimating ? '100ms' : '0ms'}}>
+           {/* {*Experience Card 1 */} 
+             <div className={`${glass} ${animation} h-auto min-h-[400px] md:h-[60vh] p-8 flex flex-col items-center justify-between`} style={{transitionDelay: isAnimating ? '100ms' : '0ms'}}>
                <div className="absolute top-0 w-full h-[2px] bg-gradient-to-r from-transparent via-cyan-400 to-transparent opacity-50"></div>
                <div className="flex flex-col items-center text-center w-full h-full">
-                 <div className="px-4 py-1 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-300 text-sm font-medium mb-6">2023 - Present</div>
+                 <div className="px-4 py-1 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-300 text-sm font-medium mb-6">2025 - Present</div>
                  <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors">Frontend Intern</h3>
                  <p className="text-lg text-cyan-300 font-medium mb-1">React & Tailwind</p>
-                 <p className="text-gray-400 text-sm ">Software House Name</p>
-                 <p className="text-gray-400 text-sm ">Remote / On-site</p>
+                 <p className="text-gray-400 text-sm ">Edify Group of Companies</p>
+                 <p className="text-gray-400 text-sm "> On-site</p>
                  <div className="w-[1px] h-16 bg-gradient-to-b from-cyan-500/50 to-transparent mt-6"></div>
                </div>
                <div className="w-full pt-4 border-t border-white/5 mt-auto"><p className="text-center text-xs tracking-wider uppercase font-bold text-green-400">Active</p></div>
-            </div> */}
+            </div>
 
             {/* Experience Card 2 */}
             {/* <div className={`${glass} ${animation} h-auto min-h-[400px] md:h-[60vh] p-8 flex flex-col items-center justify-between`} style={{transitionDelay: isAnimating ? '200ms' : '0ms'}}>
